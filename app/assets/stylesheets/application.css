@@ -32,7 +32,7 @@ body {
 	color: #333;
 }
 
-h1 p strong a {
+h1 h3 p strong a {
 	font-size: 10px;
 	font-family: sans-serif;
 }
@@ -41,6 +41,7 @@ h1 {
 }
 
 strong {
+	margin: 20px;
 
 }
 
@@ -69,6 +70,6 @@ td,p {
 	font-size: 13px;
 }
 
-.edit_book {
+.new_book,.edit_book {
 	margin: 20px;
 }
