@@ -20,6 +20,13 @@
   box-sizing: border-box;
 }
 
+.form-error {
+	color:#262626; 
+	background:#FFEBE8;
+	border:2px #990000;
+	font-weight:200;
+  }
+
 Body {
 	margin: 20px;
 }

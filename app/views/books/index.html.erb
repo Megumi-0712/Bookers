@@ -29,6 +29,13 @@
 
 
 <h3>New book</h3>
+
+<% @book.errors.full_messages.each do |message| %>
+ <div class="form-error">
+  <%= message %>
+ </div>
+<% end %>
+
 <!-- form_for部分 -->
 <%= form_for(@book,url: '/books') do |f| %>
 
@@ -37,6 +44,9 @@
 
 <h4>Body</h4>
 <%= f.text_area :body %>
+
+
+
 
 <br><%= f.submit 'Create Book' %></br>
 <% end %>
