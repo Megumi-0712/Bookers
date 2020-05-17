@@ -20,56 +20,24 @@
   box-sizing: border-box;
 }
 
-.box {
-	color:#262626; 
-	background:#FFEBE8;
-	border:2px solid #990000;
-	padding:1px; 
-  }
+body,strong,table,p,.new_book,.edit_book {
+	margin: 20px;
+}
 
 body {
-	margin: 20px;
 	color: #333;
 }
 
-h1 h3 p strong a {
-	font-size: 10px;
-	font-family: sans-serif;
-}
 h1 {
-	margin: 20px;
+	margin: 10px,0;
 }
 
-strong {
-	margin: 20px;
-
+h3,p,strong,a {
+	font-family: sans-serif;
+	color: #333;
 }
-
-p {
-	margin: 35px;
-}
-
-a {
-	margin: 20px;
-	color: #000;
-}
-
-.pagination {
-	display: inline-block;
-	text-align: center;
-	padding-top: 50px;
-}
-
-table {
-	margin: 20px;
-}
-
 td,p {
 	padding: 5px;
 	font-family: sans-serif;
 	font-size: 13px;
-}
-
-.new_book,.edit_book {
-	margin: 20px;
 }
